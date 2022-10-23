@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="./imagenes.logo.ico" type="image/x-icon"></link>
+    <title>MINI CIRCO</title>
+</head>
+<body>
+
+<header class="container-fluid">
+    <nav class="navbar">      
+       <a href="">
+         <img class="navbar__logo" src="./imagenes/minicirco 2.jpg" alt="LOGO">
+          </a>
+       <ul class="menu">
+           <li class="menu__item"> <a class="menu_link" href="./index.html">Mini Circo</a> </li>
+           <li class="menu__item"> <a class="menu_link" href="./nosotros.html">Nosotros</a> </li>
+           <li class="menu__item"> <a class="menu_link" href="./ilusiones.html">Ilusiones</a> </li>
+           <li class="menu__item"> <a class="menu_link" href="./galeria.html">Galeria</a> </li>
+           <li class="menu__item"> <a class="menu_link" href=>Contactos</a></li>
+       </ul>
+   </nav>
+ </header>
+
+<main class="container-contacto">
+    <h1>CONTACTOS</h1>
+    <h2>TENGAN EN CUENTA QUE EL TRASLADO DE LAS ILUSIONES ESTA INCLUIDO EN EL PRESUPUESTO</h2>
+    <section id="datos">
+        <FORM:get>
+            <h3>DATOS DEL CUMPLEAÑERO</h3>
+            <h4>
+                <LABEL>QUIEN CUMPLE AÑOS (NIÑA/NIÑO)</Label>
+                <select name="SEXO">
+                    <option value=NIÑO">NIÑA</option>
+                    <option value="NIÑA">NIÑO</option>
+                </select>
+            </h4>
+            <h4>
+                <label for="edad"> EDAD DE 1 A 12:</label>
+                <input type="number" name="usered" id="usered" min="1" max="12">
+            </h4>
+            <h4>
+                <label for="name"> NOMBRE:</label>
+                <input type="text" name="userno" id="userno">
+            </h4>
+            <h4>
+                <label for="name"> APELLIDO:</label>
+                <input type="text" name="userap" id="userap">
+            </h4>
+            <h4>
+                <label for="email"> EMAIL:</label>
+                <input type="email" name="email" id="email"/>
+            </h4>
+            <h4>
+                <label> ¿ DESEA RECIBIR INFORMACION DE PROMOCIONES? </label>
+                <input type="checkbox" name="acepta" value="1" />
+            </h4>
+            <h4>
+                  <textarea name="textarea" rows="20" cols="50">INGRESE SU CONSULTA NO NOS MOLESTA</textarea>
+            </h4>
+            <h4>   
+                <input type="reset" value="Limpiar consulta"/> <input type="submit" value="Enviar consulta"/>
+            </h4>
+        </FORM:get>
+    </Section>
+</MAIN>  
+
+<footer class="container-fluid">
+    <h4>Nos pueden ubicar por:</h4>
+    <div class="contacto">
+        <div class="one">Telefono: 4657-4033</div>
+        <div class="two">Celular: (011) 15-341-1949</div>
+        <div class="three">Mail: minicirco@outlook.com</div>
+        <div class="four">Web: www.minicirco.com.ar</div>
+     </div>        
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</BODY>
+</html>

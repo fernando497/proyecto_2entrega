@@ -1,0 +1,20 @@
+{
+  "name": "2-entrega",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000p\u0000r\u0000o\u0000y\u0000e\u0000c\u0000t\u0000o\u0000_\u00002\u0000e\u0000n\u0000t\u0000r\u0000e\u0000g\u0000a\u0000\r\u0000 \u0000# proyecto_2entrega",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernando497/proyecto_2entrega.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernando497/proyecto_2entrega/issues"
+  },
+  "homepage": "https://github.com/fernando497/proyecto_2entrega#readme"
+}
